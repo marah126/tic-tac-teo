@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="364.0" prefWidth="366.0" style="-fx-background-color: #fdebd3;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ai.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="47.0" layoutY="31.0" prefHeight="89.0" prefWidth="272.0" style="-fx-font-style: #ef8186;" text="Tic-Tac-Teo" textAlignment="CENTER" textFill="#f36a58">
+         <font>
+            <Font name="Bodoni MT Black" size="44.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="58.0" layoutY="138.0" prefHeight="17.0" prefWidth="250.0" text="Choose mode to play" textFill="#aa493e">
+         <font>
+            <Font name="Bodoni MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="twoPlayers" layoutX="47.0" layoutY="210.0" mnemonicParsing="false" onAction="#twoPlayerGame" prefHeight="93.0" prefWidth="110.0" style="-fx-background-color: #679186;" text="2 Players" textFill="#fdebd3">
+         <font>
+            <Font name="Bodoni MT Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="onePlayer" layoutX="198.0" layoutY="210.0" mnemonicParsing="false" onAction="#onePlayerGame" prefHeight="93.0" prefWidth="110.0" style="-fx-background-color: #679186;" text="1 Player" textFill="#fdebd3">
+         <font>
+            <Font name="Bodoni MT Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
